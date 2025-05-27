@@ -1,0 +1,40 @@
+.menudiv {
+    display: flex;
+    align-items: center;      
+    justify-content: center;  
+}
+
+.menuul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* 요소 간 간격 설정 */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logout {
+    color: red;
+}
+
+
+.manageHeader {
+    background-color: #393B3F;
+    padding: 10px 10px 0px 10px;
+}
+
+.text {
+    color: white;
+}
+
+.nav-link.text {
+    color: white;
+    transition: 0.2s;
+}
+
+.nav-link.text.active-tab {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}

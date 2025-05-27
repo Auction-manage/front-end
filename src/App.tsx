@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
-import AppRouter from './Router';
-import { AuthProvider } from './context/AuthContext';
+import AppRouter from './Router.tsx';
+//import { AuthProvider } from './context/AuthContext.tsx';
 
 function App() {
     return (
-        <AuthProvider>
-            {" "}
+        //<AuthProvider>
             <AppRouter />
-        </AuthProvider>
+        //</AuthProvider>
     );
 }
 

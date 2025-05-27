@@ -1,0 +1,80 @@
+.menudiv {
+    display: flex;
+    align-items: center;      
+    justify-content: center;  
+}
+
+.title {
+    font-weight: bold;
+    font-size: large;
+}
+
+.leftborder {
+    border-left: black solid;
+}
+
+.border-center {
+    border: #bcbcbc solid 0.5px;
+    padding-bottom: 10px;
+}
+
+.border-start {
+    border-bottom: #bcbcbc solid 0.5px;
+    border-left: #bcbcbc solid 0.5px;
+    border-top: #bcbcbc solid 0.5px;
+    padding-bottom: 10px;
+}
+
+.border-end {
+    border-bottom: #bcbcbc solid 0.5px;
+    border-right: #bcbcbc solid 0.5px ;
+    border-top: #bcbcbc solid 0.5px;
+    padding-bottom: 10px;
+}
+
+.subject {
+    background-color: #dfdfdf;
+    height: 30px;
+}
+
+.content {
+    background-color: #f2f2f2;
+    height: 50px;
+}
+
+.subject,
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  border: 1px solid #ddd;
+}
+
+/* 반응형: 통계 블록 세로 정렬 */
+@media screen and (max-width: 995px) {
+    .d-flex.text-center {
+      flex-direction: column;
+    }
+  
+    .flex-fill {
+      width: 100%;
+      margin-bottom: 16px;
+    }
+  
+    .border-start,
+    .border-center,
+    .border-end {
+        border: #EDEFF2 solid 1px;
+    }
+  }
+
+table, th, td {
+    border: solid 1px #bcbcbc;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #f2f2f2;
+}
